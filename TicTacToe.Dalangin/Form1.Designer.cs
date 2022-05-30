@@ -42,75 +42,120 @@
             // 
             // ButtonA1
             // 
+            this.ButtonA1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonA1.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.ButtonA1.Location = new System.Drawing.Point(34, 92);
+            this.ButtonA1.MaximumSize = new System.Drawing.Size(85, 83);
+            this.ButtonA1.MinimumSize = new System.Drawing.Size(85, 83);
             this.ButtonA1.Name = "ButtonA1";
             this.ButtonA1.Size = new System.Drawing.Size(85, 83);
             this.ButtonA1.TabIndex = 0;
             this.ButtonA1.UseVisualStyleBackColor = true;
+            this.ButtonA1.Click += new System.EventHandler(this.ButtonA1_Click);
             // 
             // ButtonA2
             // 
+            this.ButtonA2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonA2.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.ButtonA2.Location = new System.Drawing.Point(125, 92);
+            this.ButtonA2.MaximumSize = new System.Drawing.Size(85, 83);
+            this.ButtonA2.MinimumSize = new System.Drawing.Size(85, 83);
             this.ButtonA2.Name = "ButtonA2";
             this.ButtonA2.Size = new System.Drawing.Size(85, 83);
             this.ButtonA2.TabIndex = 1;
             this.ButtonA2.UseVisualStyleBackColor = true;
+            this.ButtonA2.Click += new System.EventHandler(this.ButtonA2_Click);
             // 
             // ButtonA3
             // 
+            this.ButtonA3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonA3.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.ButtonA3.Location = new System.Drawing.Point(216, 92);
+            this.ButtonA3.MaximumSize = new System.Drawing.Size(85, 83);
+            this.ButtonA3.MinimumSize = new System.Drawing.Size(85, 83);
             this.ButtonA3.Name = "ButtonA3";
             this.ButtonA3.Size = new System.Drawing.Size(85, 83);
             this.ButtonA3.TabIndex = 2;
             this.ButtonA3.UseVisualStyleBackColor = true;
+            this.ButtonA3.Click += new System.EventHandler(this.ButtonA3_Click);
             // 
             // ButtonB1
             // 
+            this.ButtonB1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonB1.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.ButtonB1.Location = new System.Drawing.Point(34, 181);
+            this.ButtonB1.MaximumSize = new System.Drawing.Size(85, 83);
+            this.ButtonB1.MinimumSize = new System.Drawing.Size(85, 83);
             this.ButtonB1.Name = "ButtonB1";
             this.ButtonB1.Size = new System.Drawing.Size(85, 83);
             this.ButtonB1.TabIndex = 3;
             this.ButtonB1.UseVisualStyleBackColor = true;
+            this.ButtonB1.Click += new System.EventHandler(this.ButtonB1_Click);
             // 
             // ButtonB2
             // 
+            this.ButtonB2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonB2.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.ButtonB2.Location = new System.Drawing.Point(125, 181);
+            this.ButtonB2.MaximumSize = new System.Drawing.Size(85, 83);
+            this.ButtonB2.MinimumSize = new System.Drawing.Size(85, 83);
             this.ButtonB2.Name = "ButtonB2";
             this.ButtonB2.Size = new System.Drawing.Size(85, 83);
             this.ButtonB2.TabIndex = 4;
             this.ButtonB2.UseVisualStyleBackColor = true;
+            this.ButtonB2.Click += new System.EventHandler(this.ButtonB2_Click);
             // 
             // ButtonB3
             // 
+            this.ButtonB3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonB3.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.ButtonB3.Location = new System.Drawing.Point(216, 181);
+            this.ButtonB3.MaximumSize = new System.Drawing.Size(85, 83);
+            this.ButtonB3.MinimumSize = new System.Drawing.Size(85, 83);
             this.ButtonB3.Name = "ButtonB3";
             this.ButtonB3.Size = new System.Drawing.Size(85, 83);
             this.ButtonB3.TabIndex = 5;
             this.ButtonB3.UseVisualStyleBackColor = true;
+            this.ButtonB3.Click += new System.EventHandler(this.ButtonB3_Click);
             // 
             // ButtonC1
             // 
+            this.ButtonC1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonC1.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.ButtonC1.Location = new System.Drawing.Point(34, 270);
+            this.ButtonC1.MaximumSize = new System.Drawing.Size(85, 83);
+            this.ButtonC1.MinimumSize = new System.Drawing.Size(85, 83);
             this.ButtonC1.Name = "ButtonC1";
             this.ButtonC1.Size = new System.Drawing.Size(85, 83);
             this.ButtonC1.TabIndex = 6;
             this.ButtonC1.UseVisualStyleBackColor = true;
+            this.ButtonC1.Click += new System.EventHandler(this.ButtonC1_Click);
             // 
             // ButtonC2
             // 
+            this.ButtonC2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonC2.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.ButtonC2.Location = new System.Drawing.Point(125, 270);
+            this.ButtonC2.MaximumSize = new System.Drawing.Size(85, 83);
+            this.ButtonC2.MinimumSize = new System.Drawing.Size(85, 83);
             this.ButtonC2.Name = "ButtonC2";
             this.ButtonC2.Size = new System.Drawing.Size(85, 83);
             this.ButtonC2.TabIndex = 7;
             this.ButtonC2.UseVisualStyleBackColor = true;
+            this.ButtonC2.Click += new System.EventHandler(this.ButtonC2_Click);
             // 
             // ButtonC3
             // 
+            this.ButtonC3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtonC3.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.ButtonC3.Location = new System.Drawing.Point(216, 270);
+            this.ButtonC3.MaximumSize = new System.Drawing.Size(85, 83);
+            this.ButtonC3.MinimumSize = new System.Drawing.Size(85, 83);
             this.ButtonC3.Name = "ButtonC3";
             this.ButtonC3.Size = new System.Drawing.Size(85, 83);
             this.ButtonC3.TabIndex = 8;
             this.ButtonC3.UseVisualStyleBackColor = true;
+            this.ButtonC3.Click += new System.EventHandler(this.ButtonC3_Click);
             // 
             // TicTacToeLabel
             // 

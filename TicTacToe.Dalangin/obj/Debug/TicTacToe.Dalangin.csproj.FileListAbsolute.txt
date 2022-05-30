@@ -1,0 +1,11 @@
+C:\Users\kitka\source\repos\TicTacToe.Dalangin\TicTacToe.Dalangin\bin\Debug\TicTacToe.Dalangin.exe.config
+C:\Users\kitka\source\repos\TicTacToe.Dalangin\TicTacToe.Dalangin\bin\Debug\TicTacToe.Dalangin.exe
+C:\Users\kitka\source\repos\TicTacToe.Dalangin\TicTacToe.Dalangin\bin\Debug\TicTacToe.Dalangin.pdb
+C:\Users\kitka\source\repos\TicTacToe.Dalangin\TicTacToe.Dalangin\obj\Debug\TicTacToe.Dalangin.csproj.AssemblyReference.cache
+C:\Users\kitka\source\repos\TicTacToe.Dalangin\TicTacToe.Dalangin\obj\Debug\TicTacToe.Dalangin.csproj.SuggestedBindingRedirects.cache
+C:\Users\kitka\source\repos\TicTacToe.Dalangin\TicTacToe.Dalangin\obj\Debug\TicTacToe.Dalangin.TicTacToeLabel.resources
+C:\Users\kitka\source\repos\TicTacToe.Dalangin\TicTacToe.Dalangin\obj\Debug\TicTacToe.Dalangin.Properties.Resources.resources
+C:\Users\kitka\source\repos\TicTacToe.Dalangin\TicTacToe.Dalangin\obj\Debug\TicTacToe.Dalangin.csproj.GenerateResource.cache
+C:\Users\kitka\source\repos\TicTacToe.Dalangin\TicTacToe.Dalangin\obj\Debug\TicTacToe.Dalangin.csproj.CoreCompileInputs.cache
+C:\Users\kitka\source\repos\TicTacToe.Dalangin\TicTacToe.Dalangin\obj\Debug\TicTacToe.Dalangin.exe
+C:\Users\kitka\source\repos\TicTacToe.Dalangin\TicTacToe.Dalangin\obj\Debug\TicTacToe.Dalangin.pdb
