@@ -38,13 +38,14 @@
             this.ButtonC1 = new System.Windows.Forms.Button();
             this.ButtonC2 = new System.Windows.Forms.Button();
             this.ButtonC3 = new System.Windows.Forms.Button();
+            this.playerInstructions = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ButtonA1
             // 
             this.ButtonA1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonA1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.ButtonA1.Location = new System.Drawing.Point(34, 92);
+            this.ButtonA1.Location = new System.Drawing.Point(12, 55);
             this.ButtonA1.MaximumSize = new System.Drawing.Size(85, 83);
             this.ButtonA1.MinimumSize = new System.Drawing.Size(85, 83);
             this.ButtonA1.Name = "ButtonA1";
@@ -57,7 +58,7 @@
             // 
             this.ButtonA2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonA2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.ButtonA2.Location = new System.Drawing.Point(125, 92);
+            this.ButtonA2.Location = new System.Drawing.Point(103, 55);
             this.ButtonA2.MaximumSize = new System.Drawing.Size(85, 83);
             this.ButtonA2.MinimumSize = new System.Drawing.Size(85, 83);
             this.ButtonA2.Name = "ButtonA2";
@@ -70,7 +71,7 @@
             // 
             this.ButtonA3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonA3.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.ButtonA3.Location = new System.Drawing.Point(216, 92);
+            this.ButtonA3.Location = new System.Drawing.Point(194, 55);
             this.ButtonA3.MaximumSize = new System.Drawing.Size(85, 83);
             this.ButtonA3.MinimumSize = new System.Drawing.Size(85, 83);
             this.ButtonA3.Name = "ButtonA3";
@@ -83,7 +84,7 @@
             // 
             this.ButtonB1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonB1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.ButtonB1.Location = new System.Drawing.Point(34, 181);
+            this.ButtonB1.Location = new System.Drawing.Point(12, 144);
             this.ButtonB1.MaximumSize = new System.Drawing.Size(85, 83);
             this.ButtonB1.MinimumSize = new System.Drawing.Size(85, 83);
             this.ButtonB1.Name = "ButtonB1";
@@ -96,7 +97,7 @@
             // 
             this.ButtonB2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonB2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.ButtonB2.Location = new System.Drawing.Point(125, 181);
+            this.ButtonB2.Location = new System.Drawing.Point(103, 144);
             this.ButtonB2.MaximumSize = new System.Drawing.Size(85, 83);
             this.ButtonB2.MinimumSize = new System.Drawing.Size(85, 83);
             this.ButtonB2.Name = "ButtonB2";
@@ -109,7 +110,7 @@
             // 
             this.ButtonB3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonB3.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.ButtonB3.Location = new System.Drawing.Point(216, 181);
+            this.ButtonB3.Location = new System.Drawing.Point(194, 144);
             this.ButtonB3.MaximumSize = new System.Drawing.Size(85, 83);
             this.ButtonB3.MinimumSize = new System.Drawing.Size(85, 83);
             this.ButtonB3.Name = "ButtonB3";
@@ -122,7 +123,7 @@
             // 
             this.ButtonC1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonC1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.ButtonC1.Location = new System.Drawing.Point(34, 270);
+            this.ButtonC1.Location = new System.Drawing.Point(12, 233);
             this.ButtonC1.MaximumSize = new System.Drawing.Size(85, 83);
             this.ButtonC1.MinimumSize = new System.Drawing.Size(85, 83);
             this.ButtonC1.Name = "ButtonC1";
@@ -135,7 +136,7 @@
             // 
             this.ButtonC2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonC2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.ButtonC2.Location = new System.Drawing.Point(125, 270);
+            this.ButtonC2.Location = new System.Drawing.Point(103, 233);
             this.ButtonC2.MaximumSize = new System.Drawing.Size(85, 83);
             this.ButtonC2.MinimumSize = new System.Drawing.Size(85, 83);
             this.ButtonC2.Name = "ButtonC2";
@@ -148,7 +149,7 @@
             // 
             this.ButtonC3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonC3.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.ButtonC3.Location = new System.Drawing.Point(216, 270);
+            this.ButtonC3.Location = new System.Drawing.Point(194, 233);
             this.ButtonC3.MaximumSize = new System.Drawing.Size(85, 83);
             this.ButtonC3.MinimumSize = new System.Drawing.Size(85, 83);
             this.ButtonC3.Name = "ButtonC3";
@@ -157,11 +158,26 @@
             this.ButtonC3.UseVisualStyleBackColor = true;
             this.ButtonC3.Click += new System.EventHandler(this.ButtonC3_Click);
             // 
+            // playerInstructions
+            // 
+            this.playerInstructions.Font = new System.Drawing.Font("Yu Gothic UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.playerInstructions.ForeColor = System.Drawing.Color.Red;
+            this.playerInstructions.Location = new System.Drawing.Point(12, 12);
+            this.playerInstructions.MaximumSize = new System.Drawing.Size(75, 23);
+            this.playerInstructions.MinimumSize = new System.Drawing.Size(75, 23);
+            this.playerInstructions.Name = "playerInstructions";
+            this.playerInstructions.Size = new System.Drawing.Size(75, 23);
+            this.playerInstructions.TabIndex = 9;
+            this.playerInstructions.Text = "How to play?";
+            this.playerInstructions.UseVisualStyleBackColor = true;
+            this.playerInstructions.Click += new System.EventHandler(this.playerInstructions_Click);
+            // 
             // TicTacToeLabel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(335, 382);
+            this.ClientSize = new System.Drawing.Size(291, 331);
+            this.Controls.Add(this.playerInstructions);
             this.Controls.Add(this.ButtonC3);
             this.Controls.Add(this.ButtonC2);
             this.Controls.Add(this.ButtonC1);
@@ -173,9 +189,9 @@
             this.Controls.Add(this.ButtonA1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(351, 421);
+            this.MaximumSize = new System.Drawing.Size(307, 370);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(351, 421);
+            this.MinimumSize = new System.Drawing.Size(307, 370);
             this.Name = "TicTacToeLabel";
             this.Text = "Tic Tac Toe";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -194,6 +210,7 @@
         private System.Windows.Forms.Button ButtonC1;
         private System.Windows.Forms.Button ButtonC2;
         private System.Windows.Forms.Button ButtonC3;
+        private System.Windows.Forms.Button playerInstructions;
     }
 }
 
