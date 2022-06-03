@@ -34,11 +34,19 @@ namespace TicTacToe.Dalangin
 
         public System.Drawing.Color colorChanger(String symbol)
         {
+<<<<<<< HEAD
             if (symbol.Equals("O"))
             {
                 return System.Drawing.Color.LightYellow;
             }
             else if (symbol.Equals("X"))
+=======
+            if(symbol.Equals("O"))
+            {
+                return System.Drawing.Color.LightYellow;
+            }
+            else if(symbol.Equals("X"))
+>>>>>>> ad788b75e2a3931f2847352223f99ca4c1bcb04c
             {
                 return System.Drawing.Color.LightBlue;
             }
@@ -51,6 +59,10 @@ namespace TicTacToe.Dalangin
             {
                 String combination = "";
                 int one = 0, two = 0, three = 0;
+<<<<<<< HEAD
+=======
+
+>>>>>>> ad788b75e2a3931f2847352223f99ca4c1bcb04c
 
                 switch (i)
                 {
@@ -120,6 +132,8 @@ namespace TicTacToe.Dalangin
                 }
 
                 else tieBreaker();
+
+
             }
         }
 
@@ -149,7 +163,11 @@ namespace TicTacToe.Dalangin
 
         public void winnerColor(int number)
         {
+<<<<<<< HEAD
             switch (number)
+=======
+            switch(number)
+>>>>>>> ad788b75e2a3931f2847352223f99ca4c1bcb04c
             {
                 case 0:
                     ButtonA1.BackColor = System.Drawing.Color.Green; break;
@@ -290,6 +308,11 @@ namespace TicTacToe.Dalangin
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+            reset();
+        }
+
+        private void newgameButton_Click(object sender, EventArgs e)
         {
             reset();
         }

@@ -45,6 +45,10 @@
             // ButtonA1
             // 
             this.ButtonA1.BackColor = System.Drawing.Color.Silver;
+<<<<<<< HEAD
+=======
+            this.ButtonA1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+>>>>>>> ad788b75e2a3931f2847352223f99ca4c1bcb04c
             this.ButtonA1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonA1.ForeColor = System.Drawing.Color.DimGray;
             this.ButtonA1.Location = new System.Drawing.Point(12, 55);
@@ -194,7 +198,11 @@
             this.newgameButton.TabIndex = 10;
             this.newgameButton.Text = "New Game";
             this.newgameButton.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.newgameButton.Click += new System.EventHandler(this.button1_Click);
+=======
+            this.newgameButton.Click += new System.EventHandler(this.newgameButton_Click);
+>>>>>>> ad788b75e2a3931f2847352223f99ca4c1bcb04c
             // 
             // TicTacToeLabel
             // 

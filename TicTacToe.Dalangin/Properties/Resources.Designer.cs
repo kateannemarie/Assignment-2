@@ -63,6 +63,29 @@ namespace TicTacToe.Dalangin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
+=======
+        internal static System.Drawing.Bitmap happpyf {
+            get {
+                object obj = ResourceManager.GetObject("happpyf", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_processing20210309_28526_1ppgiyj {
+            get {
+                object obj = ResourceManager.GetObject("image_processing20210309-28526-1ppgiyj", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+>>>>>>> ad788b75e2a3931f2847352223f99ca4c1bcb04c
         internal static System.Drawing.Bitmap istockphoto_1160542809_612x612 {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1160542809-612x612", resourceCulture);
